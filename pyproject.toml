@@ -5,7 +5,19 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "fastapi==0.115.6",
+    "groq==0.13.1",
     "ipykernel>=7.2.0",
+    "langchain-text-splitters==0.3.3",
+    "numpy==2.2.1",
+    "pydantic-settings==2.7.0",
+    "pypdf==5.1.0",
+    "python-multipart==0.0.20",
+    "qdrant-client==1.12.1",
+    "redis==5.2.1",
+    "rq==2.1.0",
+    "sentence-transformers==3.3.1",
+    "uvicorn[standard]==0.32.1",
 ]
 
 [dependency-groups]
